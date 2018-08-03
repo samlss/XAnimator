@@ -40,7 +40,7 @@ public class XAnimator {
      * @param context The context obj.
      * @param layoutId The layout id.
      * */
-    public static View initLayout(Context context, @LayoutRes int layoutId){
+    public static View initLayout(Context context, int layoutId){
         LayoutInflater inflater = LayoutInflater.from(context);
         View layoutView = inflater.inflate(layoutId, null);
 
@@ -81,7 +81,7 @@ public class XAnimator {
     /**
      * Parse the layout.xml, to get the attrs of the child in the {@link XAnimatorLinearLayout}
      * */
-    private static List<XAnimatorAttr> parseLayoutXml(Context context, @LayoutRes int layoutId){
+    private static List<XAnimatorAttr> parseLayoutXml(Context context, int layoutId){
         List<XAnimatorAttr> xAnimatorAttrs = new ArrayList<>();
 
         XmlResourceParser parser = context.getResources().getLayout(layoutId);
