@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <declare-styleable name="XAnimator">
+        <attr name="x_alpha" format="boolean"/>
+        <attr name="x_scaleX" format="boolean"/>
+        <attr name="x_scaleY" format="boolean"/>
+        <attr name="x_startBgColor" format="color"/>
+        <attr name="x_endBgColor" format="color"/>
+
+        <attr name="from_direction">
+            <flag name="top" value="1" />
+            <flag name="bottom" value="2" />
+            <flag name="left" value="3" />
+            <flag name="right" value="4" />
+        </attr>
+    </declare-styleable>
+</resources>

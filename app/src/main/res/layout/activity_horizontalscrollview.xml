@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.iigo.library.XAnimatorHorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <com.iigo.library.XAnimatorLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/duola_big" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/duola1"
+                app:x_alpha="true"
+                app:x_scaleX="true"
+                app:x_scaleY="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/duola2"
+                app:from_direction="top"
+                app:x_alpha="true"
+                app:x_scaleX="true"
+                app:x_scaleY="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/duola3"
+                app:from_direction="bottom"
+                app:x_alpha="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/duola4"
+                app:from_direction="top"
+                app:x_alpha="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/duola5"
+                app:x_endBgColor="@android:color/holo_red_light"
+                app:x_startBgColor="@android:color/holo_green_light" />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                app:x_endBgColor="@android:color/holo_orange_light"
+                app:x_startBgColor="@android:color/holo_green_light">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/duola6" />
+            </LinearLayout>
+
+        </com.iigo.library.XAnimatorLinearLayout>
+    </com.iigo.library.XAnimatorHorizontalScrollView>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@android:color/darker_gray" />
+
+    <com.iigo.library.XAnimatorHorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <com.iigo.library.XAnimatorLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="300dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/duola_big" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/duola1"
+                app:x_alpha="true"
+                app:x_scaleX="true"
+                app:x_scaleY="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/duola2"
+                app:from_direction="top"
+                app:x_alpha="true"
+                app:x_scaleX="true"
+                app:x_scaleY="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/duola3"
+                app:from_direction="bottom"
+                app:x_alpha="true" />
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/duola4"
+                app:from_direction="top"
+                app:x_alpha="true" />
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:src="@mipmap/duola5"
+                app:x_endBgColor="@android:color/holo_red_light"
+                app:x_startBgColor="@android:color/holo_green_light" />
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                app:x_endBgColor="@android:color/holo_orange_light"
+                app:x_startBgColor="@android:color/holo_green_light">
+
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/duola6" />
+            </LinearLayout>
+
+        </com.iigo.library.XAnimatorLinearLayout>
+    </com.iigo.library.XAnimatorHorizontalScrollView>
+</LinearLayout>
