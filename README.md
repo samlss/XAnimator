@@ -16,7 +16,7 @@ An animation framework.
 
 
 
-## 使用<br>
+## Use<br>
 Add it in your root build.gradle at the end of repositories：
 ```
 allprojects {
@@ -36,7 +36,7 @@ dependencies {
 
 ## Attributes description：
 
-| 属性        | 说明           |
+| attr        | description           |
 | ------------- |:-------------:|
 | x_alpha      | Whether to perform a alpha value change animation (range 0-1) |
 | x_scaleX | Whether to perform x-axis scaling animation (range 0-1) |
@@ -48,8 +48,8 @@ dependencies {
 <br/>
 
 ## note
-You can use the same ScrollView and HorizontalScrollView as you normally would, but use a custom XAnimatorScrollView/XAnimatorHorizontalScrollView here.
-And XAnimatorLinearLayout (orientation property should also be specified)
+You can use the custome layout XAnimatorScrollView/XAnimatorHorizontalScrollView and XAnimatorLinearLayout (orientation property should also be specified), like when you use the ScrollView/HorizontalScrollView and the LinearLayout.
+
 
 ## in layout.xml
 ```
