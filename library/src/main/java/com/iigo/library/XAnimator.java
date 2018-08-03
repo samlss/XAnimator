@@ -1,19 +1,14 @@
 package com.iigo.library;
 
-import android.annotation.LayoutRes;
 import android.content.Context;
-import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.content.res.XmlResourceParser;
 import android.text.TextUtils;
 import android.util.AttributeSet;
-import android.util.Log;
-import android.util.SparseArray;
 import android.util.Xml;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewParent;
 
 import org.xmlpull.v1.XmlPullParser;
 
