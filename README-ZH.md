@@ -44,8 +44,8 @@ dependencies {
 <br/>
 
 ## 注意
-你可以像正常使用ScrollView和HorizontalScrollView一样，只不过这里要使用自定义的XAnimatorScrollView/XAnimatorHorizontalScrollView
-以及XAnimatorLinearLayout(orientation属性也要指定哦)
+你可以像正常使用ScrollView和HorizontalScrollView一样，只不过这里要使用自定义的`XAnimatorScrollView/XAnimatorHorizontalScrollView`
+以及`XAnimatorLinearLayout`(orientation属性也要指定哦)
 
 ## 布局中使用：
 ```
