@@ -48,7 +48,7 @@ dependencies {
 <br/>
 
 ## note
-You can use the custome layout XAnimatorScrollView/XAnimatorHorizontalScrollView and XAnimatorLinearLayout (orientation property should also be specified), like when you use the ScrollView/HorizontalScrollView and the LinearLayout.
+You can use the custome layout `XAnimatorScrollView/XAnimatorHorizontalScrollView` and `XAnimatorLinearLayout` (orientation property should also be specified), like when you use the ScrollView/HorizontalScrollView and the LinearLayout.
 
 
 ## in layout.xml
