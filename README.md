@@ -1,2 +1,2 @@
 # XAnimator
-An animation execution framework(一个动画框架).
+An animation framework(一个动画框架).
