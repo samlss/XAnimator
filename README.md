@@ -1,9 +1,10 @@
-# XAnimator
-An animation framework.
+# XAnimator 
 
-## [中文](https://github.com/samlss/XAnimator/blob/master/README-ZH.md)
+### [中文](https://github.com/samlss/XAnimator/blob/master/README-ZH.md)
 
-## An animation framework that sets the animation effect of the corresponding child view according to the scrolling distance in the ScrollView or HorizontalScrollView.
+### An animation framework that sets the animation effect of the corresponding child view according to the scrolling distance in the ScrollView or HorizontalScrollView.
+
+<br/>
 
 [![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/XAnimator)  [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/XAnimator/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
@@ -47,7 +48,7 @@ dependencies {
 
 <br/>
 
-## note
+## note:
 You can use the custome layout `XAnimatorScrollView/XAnimatorHorizontalScrollView` and `XAnimatorLinearLayout` (orientation property should also be specified), like when you use the ScrollView/HorizontalScrollView and the LinearLayout.
 
 
