@@ -1,5 +1,5 @@
 # XAnimator
-## 一个动画框架，根据ScrollView或者HorizontalScrollView中的滑动距离设置对应子view的动画效果.
+### 一个动画框架，根据ScrollView或者HorizontalScrollView中的滑动距离设置对应子view的动画效果.
 
 [![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/XAnimator)  [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/XAnimator/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
