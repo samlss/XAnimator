@@ -5,7 +5,7 @@ An animation framework.
 
 ## An animation framework that sets the animation effect of the corresponding child view according to the scrolling distance in the ScrollView or HorizontalScrollView.
 
-[![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/XAnimator)  [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/DayNightLoadingView/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
+[![Api reqeust](https://img.shields.io/badge/api-11+-green.svg)](https://github.com/samlss/XAnimator)  [![Apache License 2.0](https://img.shields.io/hexpm/l/plug.svg)](https://github.com/samlss/XAnimator/blob/master/LICENSE) [![Blog](https://img.shields.io/badge/samlss-blog-orange.svg)](https://blog.csdn.net/Samlss)
 
 
 ![gif1](https://github.com/samlss/XAnimator/blob/master/screenshots/screenshot1.gif)
